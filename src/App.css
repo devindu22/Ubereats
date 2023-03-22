@@ -1,0 +1,58 @@
+label {
+  padding: 16px 0 16px 16px;
+  width: 262px;
+}
+
+input {
+  margin: 16px 16px 0 0;
+  height: 22px;
+  width: 22px;
+  float: right;
+}
+
+.close span {
+  background-color: white;
+  color: black;
+  padding: 3px 8px;
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+}
+
+.horizontal-navbar::-webkit-scrollbar {
+  display: none;
+}
+
+.horizontal-navbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.is-active {
+  border-bottom: 1px solid black;
+}
+
+.restaurant-menu-item:hover {
+  border-color: #000000;
+  cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+  .margin-left {
+    margin: 0 0 0 0 !important;
+  }
+
+  .margin-tp {
+    margin: 24px 0 24px 0 !important;
+  }
+
+  .text-pr {
+    padding-right: 0px !important;
+  }
+
+  .restaurant-card-horizontal {
+    margin-right: 16px !important;
+  }
+}
